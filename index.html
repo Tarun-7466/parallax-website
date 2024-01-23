@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Link-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Parallax Website</title>
+</head>
+
+<body>
+    <div id="background">
+        <div id="overlay">
+            <nav>
+                <h3>Bhraman.co</h3>
+                <button type="submit">Log In</button>
+            </nav>
+            <h1>Your Journey,Our Passion</h1>
+            <footer>
+                <div class="left">
+                    <h2><span>09</span>/10</h2>
+                </div>
+                <div class="right">
+                    <a href="#">Facebook</a>
+                    <a href="#">What'sApp</a>
+                    <a href="#">YouTube</a>
+                </div>
+            </footer>
+        </div>
+        <img data-depth=".08" id="sky" class="Parallax" src="./images/sky.png" alt="">
+        <img data-depth=".1" id="pahad" class="Parallax" src="./images/pahad1.png" alt="">
+        <img data-depth=".2" id="man" class="Parallax" src="./images/pahadman.png" alt="">
+        <div id="gradient"></div>
+    </div>
+    <div id="content">
+        <div class="gridContainer">
+            <div class="grid-item">
+                <h4>Adventure Travel</h4>
+                <div class="img1"></div>
+            </div>
+            <div class="grid-item">
+                <h4>Luxury Travel</h4>
+                <div class="img2"></div>
+            </div>
+            <div class="grid-item">
+                <h4>Cultural Tours</h4>
+                <div class="img3"></div>
+            </div>
+            <div class="grid-item">
+                <h4>Family vacations</h4>
+                <div class="img4"></div>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta repellat iure laudantium nam nihil
+            voluptates, sint voluptatum iusto commodi ratione, perspiciatis ea nostrum reiciendis quis molestiae, quae
+            sit labore maxime?</p>
+    </div>
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
